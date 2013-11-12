@@ -251,12 +251,12 @@
     -->
 
     <!-- True if the Irda service should be started at system start. This currently only
-         supports Samsung Galaxy S4. -->
+         supports Samsung Galaxy S4.
     <bool name="config_enableIrdaManagerService">true</bool>
 
-    <!-- Device supports LED flashlight -->
+    Device supports LED flashlight 
     <bool name="config_enableTorch">true</bool>
-
+    -->
     <!-- Enables proper GPS handling -->
     <string-array name="config_locationProviderPackageNames" translatable="false">
     <!-- The standard AOSP fused location provider -->
