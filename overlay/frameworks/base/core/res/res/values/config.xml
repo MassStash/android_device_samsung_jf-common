@@ -244,7 +244,6 @@
     <integer name="config_deviceHardwareKeys">7</integer>
     -->
 
-
     <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- Panel auto-brightness configuration value 
@@ -257,4 +256,13 @@
 
     <!-- Device supports LED flashlight -->
     <bool name="config_enableTorch">true</bool>
+
+    <!-- Enables proper GPS handling -->
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+    <!-- The standard AOSP fused location provider -->
+    <item>com.android.location.fused</item>
+    <!-- The Google provider -->
+    <item>com.google.android.gms</item>
+   </string-array>
+
 </resources>
