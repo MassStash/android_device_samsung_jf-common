@@ -26,6 +26,11 @@
 #
 
 on init
+  
+    # Make dalvik-cache dir
+    mkdir /cache/dalvik-cache 0771 system system
+    chown system system /cache/dalvik-cache
+    chmod 0771 /cache/dalvik-cache
 
     # For Absolute Persistence Partition
     mkdir /persdata 0755 system system
