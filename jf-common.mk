@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
 # APNS Configuration
 PRODUCT_COPY_FILES += \
     device/samsung/jf-common/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    device/samsung/jf-common/etc/apns-conf-cdma.xml:system/etc/apns-conf-cdma.xml \
     device/samsung/jf-common/etc/spn-conf.xml:system/etc/spn-conf.xml
 
 # GPS
