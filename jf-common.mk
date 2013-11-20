@@ -26,10 +26,6 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/jf-common/overlay
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-
 # Expose Irda feature
 PRODUCT_COPY_FILES += \
     device/samsung/jf-common/etc/com.sec.feature.irda_service.xml:system/etc/permissions/com.sec.feature.irda_service.xml
@@ -132,6 +128,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # QRNGD
 PRODUCT_PACKAGES += qrngd
+
+# Custom packages
+PRODUCT_PACKAGES += \
+    CellBroadcastReceiver \
+    s4utils
 
 # Prepatch to fix BT/WiFi bus lockups
 PRODUCT_COPY_FILES += device/samsung/jf-common/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
