@@ -239,5 +239,8 @@
     <!-- The Google provider -->
     <item>com.google.android.gms</item>
    </string-array>
+   
+    <!-- Enable CellBroadcastReceiver package in Settings menu -->
+    <bool name="config_cellBroadcastAppLinks">true</bool>
 
 </resources>
