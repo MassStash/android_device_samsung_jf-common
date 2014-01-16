@@ -45,11 +45,6 @@ on fs
     mount_all fstab.qcom
     setprop ro.crypto.fuse_sdcard true
 
-    chown system system /persdata
-    chmod 0755 /persdata
-    chown system system /persdata/absolute
-    chmod 0750 /persdata/absolute
-
     chown system radio /efs
     chmod 0771 /efs
 
