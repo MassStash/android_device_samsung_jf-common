@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
     init.local.rc \
     init.bt.rc \
     init.carrier.rc \
-    init.crda.rc \
+    init.crda.sh \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
