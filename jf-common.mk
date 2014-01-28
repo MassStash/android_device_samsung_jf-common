@@ -41,11 +41,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/jf-common/media/media_profiles.xml:system/etc/media_profiles.xml
 
-# APNS Configuration
-PRODUCT_COPY_FILES += \
-    device/samsung/jf-common/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    device/samsung/jf-common/etc/spn-conf.xml:system/etc/spn-conf.xml
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8960
