@@ -67,8 +67,6 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.local.rc \
-    init.bt.rc \
     init.carrier.rc \
     init.crda.sh \
     init.qcom.rc \
